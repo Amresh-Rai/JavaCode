@@ -1,0 +1,22 @@
+package constructor;
+
+class Student {
+    private String name;
+
+    public Student(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+public class StudentPrivate{
+    public static void main(String[] args) {
+        Student s1 = new Student("Amresh");
+
+        System.out.println("Accessing private variable from another class:");
+        System.out.println("Name: " + s1.getName());
+    }
+}
