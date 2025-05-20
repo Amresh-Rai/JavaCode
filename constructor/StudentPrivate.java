@@ -7,7 +7,7 @@ class Student {
         this.name = name;
     }
 
-    public String getName() {
+    public String getname() {
         return name;
     }
 }
@@ -17,6 +17,6 @@ public class StudentPrivate{
         Student s1 = new Student("Amresh");
 
         System.out.println("Accessing private variable from another class:");
-        System.out.println("Name: " + s1.getName());
+        System.out.println("name: " + s1.getname());
     }
 }
