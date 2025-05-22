@@ -3,7 +3,7 @@ import java.util.*;
 
 public class SortArray {
     public static void main(String[] args) {
-        int []arr={10,40,28,13,35,50};
+        int []arr={10,40,10,13,10,50};
         sortarray(arr);
         System.out.println(Arrays.toString(arr));
 

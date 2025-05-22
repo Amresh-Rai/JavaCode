@@ -6,9 +6,7 @@ import java.util.Scanner;
 public class Question {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-//        int n = in.nextInt();
-//        boolean ans = isPrime(n);
-//        System.out.println(ans);
+
 
         for (int i = 100; i < 1000; i++) {
             if (isArmstrong(i)) {
@@ -17,7 +15,7 @@ public class Question {
         }
     }
 
-    // print all the 3 digits armstrong numbers
+    
     static boolean isArmstrong(int n) {
         int original = n;
         int sum = 0;
