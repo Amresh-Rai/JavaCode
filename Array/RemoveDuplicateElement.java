@@ -17,7 +17,7 @@ public class RemoveDuplicateElement {
               arr[i] = arr[j];
               arr[j] = temp;
               end --;
-            }
+            } 
             
             
         }
